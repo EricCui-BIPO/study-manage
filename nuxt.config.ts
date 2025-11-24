@@ -5,8 +5,8 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/tailwindcss'],
 
-  css: ['~/assets/css/main.css'],
 
+  
   runtimeConfig: {
     public: {
       supabaseUrl: process.env.SUPABASE_URL || '',
